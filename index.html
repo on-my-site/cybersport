@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="CSS/articles.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <ul class="nav">
+                    <div class="header-logo">
+                        <span class="logo"></span>
+                        <span class="logo-text">CyberSport</span>
+                    </div>
+                    <div class="header-links">
+                        <li><a href="">Главная</a></li>
+                        <li><a href="">Игры</a></li>
+                        <li><a href="">Команды</a></li>
+                        <li><a href="">О сайте</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="content">
+                <div class="title_block_h">
+                    <h1>Что такое киберспорт сегодня и как он устроен?</h1>
+                </div>
+                <div class="info-after-title">
+                    <p>Если кратко, термин обозначает соревнование между людьми в видеоиграх. Участники пытаются доказать друг другу и зрителям, что в данном виртуальном мире именно они быстрее принимают решения, придумывают и реализуют лучшие стратегии, менее подвержены эмоциям. По сути, как в реальном спорте — футболе, биатлоне или любом другом виде.</p>
+                    <p>При этом киберспорт очень гибок. В разных играх для победы нужно «нажимать кнопки» по-разному: в шутерах на первый план выходит скорость реакции, в карточных играх важнее общая стратегия на игру. Другие дисциплины требуют совместить эти таланты, взаимодействовать с партнёрами по команде, уметь прочесть противника и сохранять хладнокровие до решающего момента.</p>
+                    <p>Особенно популярен киберспорт стал во время пандемии COVID-19: пока все спортивные соревнования отменяют или проводят со значительными ограничениями, геймеры продолжают выступать в онлайн-формате — играют матчи по интернету не выходя из дома. Доступность киберспорта всегда была большим плюсом — чтобы тренироваться, игрокам не обязательно каждый день приходить на стадион или собираться на базе. Всё для этого уже есть в виртуальном мире, доступном из квартиры каждого участника.</p>
+                    <p>В 2021 году соревновательный гейминг успешно закрепился как один из самых популярных и развитых видов спорта. До футбола или франшизных лиг уровня НХЛ пока не достать, но киберспорт как направление уже перспективнее велоспорта, лыжных гонок или гандбола — это касается и призовых, и внимания аудитории, и иных моментов.</p>
+                </div>
+                <div class="img-after-title"></div>
+
+                <div class="main-content">
+                    <div class="text-about-sport">
+                        <p>Важно и то, что киберспорт не требует больших денежных вложений, связей и так далее. Это очень честное соревнование — побеждает тот, кто лучше справляется с задачей, а арбитром выступает компьютерная система. Успеха добиваются простые парни, с которыми можно легко пообщаться в рейтинговом матче или на стриме. Возможность стать чемпионом мира в следующем году в теории есть у каждого.</p>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="IMG/slider3.jpg" alt=""></div>
+                          <div class="swiper-slide"><img src="IMG/slider2.jpg" alt=""></div>
+                          <div class="swiper-slide"> <img src="IMG/slider1.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+
+                      <h2 class="title-h2">Новости</h2>
+
+                    <section class="articles">
+                        <div class="articles__cards">
+                            <div class="articles__card">
+                                <div class="articles__image">
+                                    <img src="IMG/slider3.jpg" alt="">
+                                </div>
+
+                                    <div class="articles__info">
+                                        
+                                        <span>20:48 ⋅ </span>
+                                        <span>Игры ⋅ </span>
+                                        <span>Автор</span>
+
+                                        <h2 class="articles__title">Заголовок</h2>
+
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam doloribus, id, dolorem amet aspernatur nisi maiores sequi soluta, dolores quis vitae odit atque voluptates! Dolorum nobis minus ut a. Laboriosam sint illum at deserunt aliquam atque explicabo laborum reprehenderit?</p>
+                                        <div class="articles__button-container">
+                                            <button
+                                             class="articles__button">Кнопка
+                                            </button>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+
+</html>
